@@ -1,14 +1,57 @@
 .container-body1{
     margin-top: 100px;
-}
-
-.promotion{
-    background-color: black;
-    border: solid 2px rebeccapurple!important;
-    border-radius: 10px;
-    align-content: center;
+    margin-left: auto;
     justify-content: center;
+    align-content: center;
     text-align: center;
-    margin-top: 30px;
 }
 
+.hero-image h1{
+    font-family: fatfrank,Comic Sans MS,sans-serif;
+    color: #FAE601;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+}
+
+.hero-container h1{
+    color: #91A8BD;
+    font-family: fatfrank,Comic Sans MS,sans-serif;
+    font-size: 5.5rem;
+}
+
+.hero-container h2{
+    color: #91A8BD;
+    font-family: fatfrank,Comic Sans MS,sans-serif;
+    font-size: 2rem;
+    margin-top: -60px;
+}
+
+.hero-button{
+    border-radius: 20px;
+    background-color:#B4CAD9!important; ;
+    color: #CADAE4;
+    font-size: 30px;
+    border: dashed 3px #CADAE4;
+    width: 300px;
+    margin-left: 600px;
+}
+
+
+.pictures{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.second-body{
+    background-color: white!important;
+    padding-top: 20px;
+}
+
+
+.text2{
+    margin-left: 380px;
+    color: #445C7F;
+    font-family: fatfrank,Comic Sans MS,sans-serif;
+    font-size: 1.8rem;
+}

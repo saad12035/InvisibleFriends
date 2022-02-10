@@ -1,87 +1,126 @@
-import { Image} from 'antd';
+import {Button, Image} from 'antd';
 import { Row, Col } from 'antd';
 import './contextbody.css';
-import BannerCalculations from "../bannercalculations/bannercalculations";
 
 
 function ContextBody() {
-  const myArray = [
-    {
-      number: 1,
-      title: 'img1',
-      image: 'IMG_2562',
-    },
-    {
-      number: 2,
-      title: 'img2',
-      image: 'IMG_2506',
-    },
-
-    {
-      number: 3,
-      title: 'img3',
-      image: 'IMG_2524',
-    },
-    {
-      number: 4,
-      title: 'img4',
-      image: 'IMG_2500',
-    },
-    {
-      number: 5,
-      title: 'img5',
-      image: 'IMG_2509',
-    },
-    {
-      number: 6,
-      title: 'img6',
-      image: 'IMG_2527',
-    },
-  ]
   return (
       <div className='container-body1'>
         <Row>
-          <Col span={2}/>
-          <Col span={7}>
-              <Image
-                  style={{borderRadius:10,height:350,marginTop:30}}
-                  src={require('../../images/Attachment_1644163170.gif')}
-              />
-          </Col>
-          <Col span={7}>
-            <BannerCalculations/>
-          </Col>
-          <Col span={4} offset={2}>
-            <div className="promotion">
-              <h1 style={{fontWeight:"bold",fontSize:30}}>
-              10,000
-              </h1>
-              <h4 style={{color:"white",marginTop:-10}}>
-              NFT Membership
-              </h4>
-            </div>
-            <div className="promotion">
-              <h1 style={{fontWeight:"bold",fontSize:30}}>
-                0.06 ETH
-              </h1>
-            </div>
-          </Col>
-          <Col span={2}/>
+         <Col span={24}>
+           <div className="hero-image">
+             <h1>INVISIBLE<br/> FRIENDS</h1>
+           </div>
+           <Image
+              style={{marginTop:-180}}
+               src={require('../../images/invisible-montage-600w-c3zLxbZQSZq2Cdu9FuY5m7bAsDLUxpYtAcT4MOAkjgBViiZyKagnbn6wJEwNN0fbvs2Dg7gpLJK92JRwhquCBaE7avOMN297Ht6o.gif')}
+           />
+           <div className="hero-container">
+             <h1>0/5000 </h1>
+             <h2>MINTED</h2>
+             <h3 className="hero-button">
+               Connect Wallet
+             </h3>
+           </div>
+         </Col>
         </Row>
-        <br/>
-        <br/>
+        <div className="second-body">
         <Row>
-          {myArray.map(({image}) => {
-            return (
-                <Col span={3} offset={1}>
-                  <Image
-                         src={require('../../images/'+image+'.jpeg')}
-                  />
-                </Col>
-            );
-          })}
-
+          <Col span={4} >
+            <video className="pictures" autoPlay loop>
+              <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_1.mp4"
+                      type="video/mp4"/>
+            </video>
+          </Col>
+          <Col span={4} offset={1}>
+              <video className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_2.mp4"
+                        type="video/mp4"/>
+              </video>
+          </Col>
+          <Col span={4} offset={1}>
+            <video className="pictures" autoPlay loop>
+              <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_3.mp4"
+                      type="video/mp4"/>
+            </video>
+          </Col>
+          <Col span={4} offset={1}>
+            <video className="pictures" autoPlay loop>
+              <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_4.mp4"
+                      type="video/mp4"/>
+            </video>
+          </Col>
+          <Col span={4} offset={1}>
+            <video className="pictures" autoPlay loop>
+              <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_5.mp4"
+                      type="video/mp4"/>
+            </video>
+          </Col>
         </Row>
+          <Row gutter={[0, 40]}>
+            <Col span={4} offset={2}>
+              <video  style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_6.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+            <Col span={4} offset={1}>
+              <video style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_7.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+            <Col span={4} offset={1}>
+              <video style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_8.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+            <Col span={4} offset={1}>
+              <video style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_9.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+          </Row>
+          <Row >
+            <Col span={4} >
+              <video style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_10.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+            <Col span={4} offset={1}>
+              <video  style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_11.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+            <Col span={4} offset={1}>
+              <video style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_12.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+            <Col span={4} offset={1}>
+              <video style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_13.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+            <Col span={4} offset={1}>
+              <video style={{marginTop:30}} className="pictures" autoPlay loop>
+                <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_14.mp4"
+                        type="video/mp4"/>
+              </video>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h1 className="text2">These are previews, not actual tokens. More on Twitter.</h1>
+            </Col>
+          </Row>
+        </div>
       </div>
 
   );

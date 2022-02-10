@@ -1,6 +1,6 @@
 .footer-container{
-    background-color: black;
-    overflow: auto;
+    background-color: #B4CAD9;
+    overflow: auto !important;
     width: auto;
     height: auto;
     align-content: center;
@@ -8,7 +8,25 @@
     text-align: center;
     padding-top: 60px;
 }
+.footer1{
+    overflow: auto;
+}
 
+.footer1 h1{
+    font-family: fatfrank,Comic Sans MS,sans-serif;
+    color: #FAE601;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 20px;
+}
+
+.footer1 h2{
+    font-family: fatfrank,Comic Sans MS,sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
 
 
 .ant-layout-footer{

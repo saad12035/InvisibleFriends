@@ -9,9 +9,7 @@ function Home(){
   return(
       <Layout>
         <div className="test">
-          <Header style={{ position: 'sticky', margin:'0', width: '100%' }}><HeaderBanner/></Header>
-          <br/>
-          <br/>
+          <Header style={{ position: 'sticky', margin:'0', width: '100%',backgroundColor:"#B4CAD9" }}><HeaderBanner/></Header>
           <Content><ContextBody/></Content>
         </div>
         <Footer><FooterSite/></Footer>
