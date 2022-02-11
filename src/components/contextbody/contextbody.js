@@ -16,10 +16,10 @@ function ContextBody() {
                src={require('../../images/invisible-montage-600w-c3zLxbZQSZq2Cdu9FuY5m7bAsDLUxpYtAcT4MOAkjgBViiZyKagnbn6wJEwNN0fbvs2Dg7gpLJK92JRwhquCBaE7avOMN297Ht6o.gif')}
            />
            <div className="hero-container">
-             <h1>0/5000 </h1>
+             <h1>3459/5000 </h1>
              <h2>MINTED</h2>
              <h3 className="hero-button">
-               Connect Wallet
+               Mint
              </h3>
            </div>
          </Col>
